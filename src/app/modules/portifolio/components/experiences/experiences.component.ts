@@ -12,15 +12,6 @@ export class ExperiencesComponent {
   public experiencesArray = signal<IExperience[]>([
     {
       summary: {
-        strong: 'Desenvolvedor de Software Estagiário',
-        p: 'AnyGrid Solar Service | 2022 - 2023',
-      },
-      text: `Encarregado do desenvolvimento e manutenção
-      de softwares internos vitais, primordialmente
-      utilizando Node.js e TypeScript.`,
-    },
-    {
-      summary: {
         strong: 'Desenvolvedor de Software Júnior',
         p: 'Tropa Digital | 2023 - Atualmente',
       },
@@ -29,6 +20,15 @@ export class ExperiencesComponent {
       framework Nest.js e MySQL. Especializado em
       construir APIs robustas e eficientes, focadas na
       entrega de alto desempenho e confiabilidade.`,
+    },
+    {
+      summary: {
+        strong: 'Desenvolvedor de Software Estagiário',
+        p: 'AnyGrid Solar Service | 2022 - 2023',
+      },
+      text: `Encarregado do desenvolvimento e manutenção
+      de softwares internos vitais, primordialmente
+      utilizando Node.js e TypeScript.`,
     },
   ]);
 }
