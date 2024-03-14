@@ -15,12 +15,11 @@
     margin-top: 10px;
     background: var(--black-010);
     border-radius: 10px;
-    color: var(--white);
 
     article,
     summary {
       padding: 10px 20px;
-      color: var(--grey);
+      color: var(--white);
       transition: 500ms ease-out;
     }
 
@@ -34,6 +33,7 @@
       p {
         font-size: 14px;
         color: var(--black-010);
+        color: var(--white);
         padding: 0;
         margin: 0;
         display: flex;
